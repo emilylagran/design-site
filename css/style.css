@@ -290,6 +290,7 @@ a.active {
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+    padding-bottom: 75%;
 }
 
 .disply-table {
