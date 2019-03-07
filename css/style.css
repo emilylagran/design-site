@@ -452,6 +452,12 @@ a.active {
     padding: 100px 0;
 }
 
+.portfolio-img-style {
+/* 
+    max-width: 350px;
+    max-height: 350px; */
+}
+
 .portfolio .categories-grid span {
     font-size: 30px;
     margin-bottom: 30px;
@@ -580,8 +586,8 @@ a.active {
 }
 
 .portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); */
 }
 
 .portfolio-padding {
