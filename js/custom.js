@@ -142,8 +142,8 @@ $(document).ready(function () {
             submitHandler: function (form) {
                 $(form).ajaxSubmit({
                     type: "POST",
-                    data: $(form).serialize(),
-                    url: "process.php",
+                    // data: $(form).serialize(), this is not neccessary as they are all captured by the backend service anyways
+                    url: "https://usebasin.com/f/7f3ee848ef9e",
                     success: function () {
                         $('#contact :input').attr('disabled', 'disabled');
                         $('#contact').fadeTo("slow", 1, function () {
