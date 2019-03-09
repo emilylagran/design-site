@@ -361,6 +361,12 @@
             <i class="ion-close-round"></i>
         </div>
 
+        <!-- back-to-top button -->
+        <div style="position: sticky;position: -webkit-sticky; top:20px;margin-left:20px;z-index:1;font-size:2rem;cursor:pointer;" onclick=" scrollToTop() ">
+
+            &uarr;
+        </div>
+
         <div class="clearfix"></div>
 
         <div class="modal-content">
@@ -398,7 +404,7 @@
 
     <script>
 
-     $( '.portfolio_item' ).click( function(){
+    $( '.portfolio_item' ).click( function(){
 
         $( '#modal-title-target' ).html( $(this).find( '.modal-title-source' ).html() );
 
@@ -410,7 +416,13 @@
             clone.classList.remove( 'hidden' );
             $( '#modal-description-wrapper' ).append( clone );
         });
-     });
+    });
+
+    function scrollToTop(){
+
+        $( "#animatedModal" ).animate({ scrollTop: 0 }, "slow" );
+        return false;
+    }
 
     </script>
 </body>
