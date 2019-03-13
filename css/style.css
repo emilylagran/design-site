@@ -591,10 +591,6 @@ a.active {
     filter: grayscale(100%); */
 }
 
-.portfolio-padding {
-    padding: 50px 0;
-}
-
 .portfolio-inner {
     padding-bottom: 0 !important;
     padding-top: 55px;
@@ -807,3 +803,56 @@ fieldset {
         font-size: 10px;
     }
 }
+
+
+
+
+
+
+/*
+
+Specific styles for modal sections :)
+
+add a class here, then add the class to a div with the class "modal-description-source" to make that section have custom styling.
+this allows you to have full control over the layout/structure of the project modal popup
+
+*/
+
+.modal-description-source {
+    /* this is the class that causes whitespace to be on the left-and-right of the content, adjust as you wish */
+
+    padding: 0px 10%;
+}
+
+.portfolio-padding {
+    /* this class is for the header of the modal on the top */
+
+    padding: 0px 10%;
+}
+
+
+@media ( min-width: 768px ) {
+
+    .modal-description-source {
+
+        padding: 0px 14%;
+    }
+    .portfolio-padding {
+
+        padding: 0px 0%;
+    }
+  }
+  @media ( min-width: 992px ) {
+
+    .modal-description-source {
+
+        padding: 0px 17%;
+    }
+  }
+  @media ( min-width: 1200px ) {
+
+    .modal-description-source {
+
+        padding: 0px 20%;
+    }
+  }
