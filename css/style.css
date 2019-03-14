@@ -821,13 +821,23 @@ this allows you to have full control over the layout/structure of the project mo
 .modal-description-source {
     /* this is the class that causes whitespace to be on the left-and-right of the content, adjust as you wish */
 
-    padding: 0px 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 90px;
 }
 
 .portfolio-padding {
     /* this class is for the header of the modal on the top */
 
-    padding: 0px 10%;
+    height: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.unique-class-name {
+
+    background-color: rgba(25, 116, 158, 0.719);
+    padding-bottom: 30px;
 }
 
 
@@ -835,24 +845,28 @@ this allows you to have full control over the layout/structure of the project mo
 
     .modal-description-source {
 
-        padding: 0px 14%;
+        padding-right: 0px 14%;
+        padding-left: 0px 14%;
     }
     .portfolio-padding {
 
-        padding: 0px 0%;
+        padding-right: 0px 0%;
+        padding-left: 0px 0%;
     }
   }
   @media ( min-width: 992px ) {
 
     .modal-description-source {
 
-        padding: 0px 17%;
+        padding-right: 0px 17%;
+        padding-left: 0px 17%;
     }
   }
   @media ( min-width: 1200px ) {
 
     .modal-description-source {
 
-        padding: 0px 20%;
+        padding-right: 0px 20%;
+        padding-left: 0px 20%;
     }
   }
