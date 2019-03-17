@@ -281,9 +281,14 @@ a.active {
 /* home section
 ==================================================*/
 
-#home {
+.index-page-background-image {
+
     background: url(../img/birds-cold-conifer-917494.jpg);
     background-size: cover;
+}
+
+#home {
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -807,66 +812,10 @@ fieldset {
 
 
 
+/* Specific Styles for ABC market page */
 
+.abc-background-image {
 
-/*
-
-Specific styles for modal sections :)
-
-add a class here, then add the class to a div with the class "modal-description-source" to make that section have custom styling.
-this allows you to have full control over the layout/structure of the project modal popup
-
-*/
-
-.modal-description-source {
-    /* this is the class that causes whitespace to be on the left-and-right of the content, adjust as you wish */
-
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 90px;
+    background: url(../img/portfolio/wellnessapp.jpg);
+    background-size: contain;
 }
-
-.portfolio-padding {
-    /* this class is for the header of the modal on the top */
-
-    height: 150px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-.unique-class-name {
-
-    background-color: rgba(25, 116, 158, 0.719);
-    padding-bottom: 30px;
-}
-
-
-@media ( min-width: 768px ) {
-
-    .modal-description-source {
-
-        padding-right: 0px 14%;
-        padding-left: 0px 14%;
-    }
-    .portfolio-padding {
-
-        padding-right: 0px 0%;
-        padding-left: 0px 0%;
-    }
-  }
-  @media ( min-width: 992px ) {
-
-    .modal-description-source {
-
-        padding-right: 0px 17%;
-        padding-left: 0px 17%;
-    }
-  }
-  @media ( min-width: 1200px ) {
-
-    .modal-description-source {
-
-        padding-right: 0px 20%;
-        padding-left: 0px 20%;
-    }
-  }

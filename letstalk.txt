@@ -1,0 +1,21 @@
+
+
+
+so this is where we are going to leave notes to eachother :)
+
+Today:
+    - fix up ABC market project page
+        - fix hero image
+            - make rectangular
+            - the left 1/3 will be whitespace
+    - fix up wellness app project page
+
+
+To-do:
+    - integrate with google analytics
+    - create link on bottom of each project to redirect to case study for project on medium
+    - have logo up on sticky-nav ONLY when it is white-background
+        - find the code that transforms it, squeeze in lil em's logo into the bitch
+    - fix responsivity issues with the 'blue box' in the 'about' section
+
+Misc notes:
