@@ -284,10 +284,10 @@ a.active {
 .index-page-background-image {
 
     background: url(../img/birds-cold-conifer-917494.jpg);
-    background-size: cover;
 }
 
-#home {
+#home, #home > .container {
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -298,7 +298,7 @@ a.active {
     padding-bottom: 75%;
 }
 
-.disply-table {
+.display-table {
     display: table;
     height: 100vh;
 }
@@ -788,7 +788,8 @@ fieldset {
         line-height: 50px;
     }
     #home,
-    .disply-table {
+    .display-table,
+    #home > .container {
         height: 600px;
     }
     .about-border {
@@ -817,5 +818,32 @@ fieldset {
 .abc-background-image {
 
     background: url(../img/abc/marble-surface-wall-1323712.jpg);
-    background-size: contain;
+}
+
+.love-background-image {
+
+    background: url(../img/abc/marble-surface-wall-1323712.jpg);
+}
+
+
+
+/* Project Hero-Section layout styles */
+
+.project-hero-layout {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project-hero-layout > div:first-child {
+
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.project-hero-layout > div:nth-child( 2 ) {
+
+    flex: 1;
+    display: flex;
 }
