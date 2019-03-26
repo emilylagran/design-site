@@ -817,7 +817,21 @@ fieldset {
 
 
 
-/* Specific Styles for ABC market page */
+/* Custom layout styles */
+
+.horizontal-section-with-vertically-centered-text {
+    /* the solution is to artificially set the height of the column ( on screens bigger than mobile ) so I can vertically center the text within it */
+
+    height: 350px;
+}
+
+.the-section-with-vertically-centered-text {
+    /* flex will alow us to 'align-items' centered, vertically */
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 
 .abc-background-image {
 
@@ -840,11 +854,22 @@ fieldset {
 
         background: url(../img/abc/abc_mobile_hero.jpg);
     }
+
+    .horizontal-section-with-vertically-centered-text {
+        /* this will reset the section so that it ha a normal height on mobile views */
+
+        height: auto;
+    }
+    .the-section-with-vertically-centered-text {
+        /* resetting display to 'block' will disable the vertical centering.. even though its not necessary really */
+
+        display: block;
+    }
 }
 
 
 
-/* Project Hero-Section layout styles */
+
 
 .project-hero-layout {
 

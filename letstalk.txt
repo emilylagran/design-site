@@ -8,7 +8,6 @@ To-do:
 - abc market
     - clean up intro
     - finish scope section
-    - how-might-we vertically centered text ( erik task )
     - add mid-fi wireframes
     - add brand attributes
     - add User Interface Section ( discussed last night before sleep )
@@ -16,7 +15,6 @@ To-do:
     - find a new hero image
     - clean up intro
     - finish scope section
-    - how-might-we vertically centered text ( erik task )
     - fix up image sizes of market analysis and blue ocean
 - Schedule X
     - ...we didnt really get to this
