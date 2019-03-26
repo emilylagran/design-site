@@ -8,7 +8,7 @@ To-do:
 - all pages
     - look into mobile responsivity issue with some images ( erik task )
 - abc market
-    - change hero image
+    - hero image responsivity problem
     - clean up intro
     - finish scope section
     - how-might-we vertically centered text ( erik task )
