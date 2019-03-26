@@ -3,14 +3,30 @@
 
 so this is where we are going to leave notes to eachother :)
 
+
 To-do:
+- all pages
+    - look into mobile responsivity issue with some images ( erik task )
 - abc market
     - change hero image
     - clean up intro
     - finish scope section
-    - how-might-we vertically centered text
+    - how-might-we vertically centered text ( erik task )
     - add mid-fi wireframes
     - add brand attributes
+    - add User Interface Section ( discussed last night before sleep )
+- love bound
+    - find a new hero image
+    - clean up intro
+    - finish scope section
+    - how-might-we vertically centered text ( erik task )
+    - fix up image sizes of market analysis and blue ocean
+- Schedule X
+    - ...we didnt really get to this
+
+
+
+
 
 
 Future Tasks:
@@ -24,5 +40,10 @@ Future Tasks:
         - find the code that transforms it, squeeze in lil em's logo into the bitch
     - fix responsivity issues with the 'blue box' in the 'about' section
     - make PWA with icon to be installed on homescreen of phones
+
+
+
+
+
 
 Misc notes:
