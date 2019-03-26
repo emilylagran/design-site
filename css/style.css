@@ -42,6 +42,10 @@ h1 {
     line-height: 70px;
 }
 
+.nice-font-style {
+    font-family: 'Playfair Display', serif;
+}
+
 h4 {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
@@ -873,7 +877,7 @@ fieldset {
 
 .content-block {
 
-    margin-bottom: 75px;
+    margin-bottom: 35px;
 }
 
 .content-block > h1 {
