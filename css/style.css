@@ -834,6 +834,14 @@ fieldset {
     background: url(../img/abc/marble-surface-wall-1323712.jpg);
 }
 
+@media screen and ( max-width: 600px ){
+
+    .abc-background-image {
+
+        background: url(../img/abc/abc_mobile_hero.jpg);
+    }
+}
+
 
 
 /* Project Hero-Section layout styles */
