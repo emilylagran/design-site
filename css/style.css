@@ -834,7 +834,7 @@ fieldset {
     background: url(../img/abc/marble-surface-wall-1323712.jpg);
 }
 
-@media screen and ( max-width: 600px ){
+@media screen and ( max-width: 768px ){
 
     .abc-background-image {
 
