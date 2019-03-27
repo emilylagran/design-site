@@ -825,6 +825,11 @@ fieldset {
     height: 350px;
 }
 
+.horizontal-section-with-larger-vertically-centered-text {
+
+    height: 650px;
+}
+
 .the-section-with-vertically-centered-text {
     /* flex will alow us to 'align-items' centered, vertically */
 
@@ -855,7 +860,8 @@ fieldset {
         background: url(../img/abc/abc_mobile_hero.jpg);
     }
 
-    .horizontal-section-with-vertically-centered-text {
+    .horizontal-section-with-vertically-centered-text,
+    .horizontal-section-with-larger-vertically-centered-text {
         /* this will reset the section so that it ha a normal height on mobile views */
 
         height: auto;
