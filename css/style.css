@@ -838,6 +838,13 @@ fieldset {
     align-items: center;
 }
 
+.image-responsivity-class {
+
+    width: 100%;
+    margin: auto;
+    max-width: 650px;
+}
+
 .abc-background-image {
 
     background: url(../img/abc/abc_hero.jpg);

@@ -21,6 +21,26 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+        <style>
+
+            @media screen and ( max-width: 768px ){
+
+                .project-hero-layout > div:first-child {
+
+                    max-height: 225px;
+                }
+                .project-hero-layout > div:nth-child( 2 ) {
+
+                    padding-top: 0px !important;
+                }
+                .custom-no-margin {
+
+                    margin-top: 0 !important;
+                    margin-bottom: 0;
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -62,15 +82,15 @@
 
                     <div>
 
-                        <h4>ecommerce app </h4>
-                        <h1>ABC<br />Market</h1>
+                        <h4 class="custom-no-margin">ecommerce app </h4>
+                        <h1 class="custom-no-margin">ABC<br />Market</h1>
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="500">
 
                     <div>
 
-                        <h3 style="margin-bottom:15px;">We had to innovate grocery shopping- fast</h3>
+                        <h3 style="margin-bottom:15px;" class="custom-no-margin">We had to innovate grocery shopping- fast</h3>
                         <h5>
                             With a team of 3 and a two week sprint the journey began. ABC Market needed to enter the 
                             technology arena so that it could compete with major players such as Amazon and Walmart. 
@@ -111,7 +131,7 @@
                                 <h4>understand client needs and objectives</h4>
                                 <p>
 
-                                    <strong>Where do we start</strong>
+                                    <strong>ABC Market is looking to enter into the ecommerce industry</strong>
                                     <br>
                                     <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation -->
                                 </p>
@@ -129,7 +149,7 @@
                                 <h4>understanding the user</h4>
                                 <p>
 
-                                    <strong>Learn their motivations, pain-points, and habits</strong>
+                                    <strong>Learn the motivations, pain-points and habits of grocery shoppers</strong>
                                     <br>
                                     <!-- lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation -->
                                 </p>
@@ -289,13 +309,10 @@
                         of those relationships were cast in a negative and tedious light.
                     </p>
 
-                    
-                    <img class="img-responsive" src="../img/abc/Qual-data.png" alt="abc market qualitative data" />
-                    
+                    <img class="img-responsive image-responsivity-class" src="../img/abc/qual_abc.png" alt="abc market qualitative data" style="max-width:1000px"/>
 
-
-                    <h3 class="nice-font-style" style="margin-top:45px;">Affinity Map</h3>
-                    <img class="img-responsive" src="../img/abc/AFFINITY-ABC.png" alt="abc market affinity map" />
+                    <h3 class="nice-font-style" style="margin-top:45px;margin-bottom:25px;">Synthesizing the Data</h3>
+                    <img class="img-responsive image-responsivity-class" src="../img/abc/AFFINITY-ABC.png" alt="abc market affinity map" style="max-width:1000px"/>
                     <p style="margin-top:25px;">
                         The data gathered was synthesized using many methodologies. The method I found to be most useful was the affinity map.
                          The affinity map grouped related data and allowed our team to spot any trends in the data. 
@@ -361,23 +378,13 @@
                 </div>
                 <!-- ./The Solution Section -->
 
-                <!-- The Flow Section -->
+                <!-- The User Interface Section -->
                 <div class="content-block col-sm-12">
 
-                    <h1 class="size-50">The Flow</h1>
+                    <h1 class="size-50">User Interface</h1>
 
                     <h3 class="nice-font-style" style="margin-top:45px; margin-bottom: 25px">Low Fidelity Wireframes</h3>
-                    <div class="row">
-
-                        <div class="col-sm-6">
-
-                            <img class="img-responsive" src="../img/abc/user_flow.png" alt="abc market user flow" />
-                        </div>
-                        <div class="col-sm-6">
-
-                            <img class="img-responsive" src="../img/abc/lofi_concept.png" alt="abc market lofi concept sketches" />
-                        </div>
-                    </div>
+                    <img class="img-responsive image-responsivity-class" src="../img/abc/lofi_concept.png" alt="abc market lofi concept sketches" style="max-width: 550px" />
                     <p style="margin-top:45px;">
                         We time boxed ourselves and did a couple rounds of crazy 8. 
                         Crazy 8 is where a timer is set for 8 minutes and each individual must 
@@ -388,7 +395,7 @@
 
 
                     <h3 class="nice-font-style" style="margin-top:45px; margin-bottom: 35px">Style Tile</h3>
-                    <img class="img-responsive" src="../img/abc/Style_Tile.png" alt="abc market style tile" style="max-width:650px;margin:auto;width:100%;" />
+                    <img class="img-responsive image-responsivity-class" src="../img/abc/Style_Tile.png" alt="abc market style tile" />
                     <p style="margin-top:45px;">
                         The UI for ABC Market had to reflect the premium shopping experience. They needed to stand out from the 
                         rest as they do with their brick and mortar stores. The color orange was chosen for it’s 
@@ -401,7 +408,7 @@
 
                     <h3 class="nice-font-style" style="margin-top:55px; margin-bottom: 35px">High Fidelity Wireframes</h3>
                     <img class="img-responsive" src="../img/abc/abc hifiii.jpg" alt="abc market hifi prototypes" />
-                    <p>
+                    <p style="margin-top:35px">
                         Finally- the end product an e-commerce app for ABC Market. 
                         During testing we found some issues where the user felt like the 
                         “set & forget” feature needed to take less time. We started off with 
@@ -410,7 +417,7 @@
                         The “set and forget” feature was not ready for hand off.
                     </p>
                 </div>
-                <!-- ./The Flow Section -->
+                <!-- ./The User Interface Section -->
 
                 <!-- Conclusion Section -->
                 <div class="content-block col-sm-12">
@@ -433,8 +440,8 @@
                         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                     </p>
                 </div>
-                <!-- ./After Thoughts Section -->
-            </div> -->
+                ./After Thoughts Section -->
+            </div>
             <!-- end content 'container' class -->
         </div>
         <!-- ./main-content -->
