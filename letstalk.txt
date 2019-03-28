@@ -6,17 +6,10 @@ so this is where we are going to leave notes to eachother :)
 
 To-do:
 - abc market
-    - clean up intro
-    - finish scope section
     - add mid-fi wireframes
     - add brand attributes
     - add User Interface Section ( discussed last night before sleep )
-- love bound
-    - clean up intro
-    - finish scope section
-    - fix up image sizes of market analysis and blue ocean
-- Schedule X
-    - ...we didnt really get to this
+
 
 
 
